@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ana Guzmán | Neuropsicóloga Clínica en San Salvador</title>
+<meta name="description" content="Consulta con Ana Guzmán, neuropsicóloga clínica en San Salvador, El Salvador. Atención presencial y virtual para ansiedad, depresión, manejo del estrés, memoria y atención. Agenda tu cita.">
+<meta name="keywords" content="psicóloga El Salvador, neuropsicóloga San Salvador, terapia psicológica online El Salvador, ansiedad, depresión, manejo del estrés, psicóloga clínica">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.psicologaanaguzman.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ana Guzmán | Neuropsicóloga Clínica en San Salvador">
+<meta property="og:description" content="Atención psicológica presencial en San Salvador y sesiones virtuales en todo El Salvador. Especialista en ansiedad, depresión, estrés y salud cognitiva.">
+<meta property="og:locale" content="es_SV">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ana Guzmán | Neuropsicóloga Clínica en San Salvador">
+<meta name="twitter:description" content="Atención psicológica presencial en San Salvador y sesiones virtuales en todo El Salvador.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Ana Guzmán",
+  "description": "Neuropsicóloga clínica ofreciendo terapia presencial en San Salvador y sesiones virtuales en todo El Salvador.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Olímpica 3428",
+    "addressLocality": "San Salvador",
+    "addressCountry": "SV"
+  },
+  "areaServed": "El Salvador",
+  "medicalSpecialty": "Psychiatric",
+  "availableService": ["Consulta presencial", "Consulta virtual"]
+}
+</script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&amp;family=Jost:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    @font-face{ font-family:'Aileron'; src: local('Helvetica Neue'), local('Arial'); }
+    body{ margin:0; background:#FEFCED; }
+    ::selection{ background:#AFBAF9; color:#1B0F2E; }
+    #cita input::placeholder, #cita textarea::placeholder{ color:#1a1a1a; opacity:0.3; }
+    @keyframes marquee{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+    @keyframes fadeInUp{ from{ opacity:0; transform:translateY(28px); } to{ opacity:1; transform:translateY(0); } }
+  </style>
+</helmet>
+
+<div style="font-family:'Aileron','Jost','Helvetica Neue',Arial,sans-serif; background:#FEFCED; color:#2A2A2A; overflow-x:hidden; width:100%;">
+
+  <!-- NAV -->
+  <nav style="position:fixed; top:0; left:0; right:0; z-index:100; background-color:#AFBAF9;">
+    <div style="{{ navContainerStyle }}">
+      <a href="#inicio" style="display:flex; align-items:center; gap:12px; cursor:pointer;">
+        <svg width="34" height="34" viewBox="0 0 34 34" style="flex-shrink: 0; background: url(&quot;./logo-psic-ana-guzman_logos-09-ms7u3fee-nkkz.png&quot;) center / cover no-repeat; width: 55px; height: 55px; transition:transform 0.3s ease;" style-hover="transform:rotate(-15deg);"><circle cx="12" cy="17" r="10" fill="none" stroke="#1B65AF" stroke-width="2.2" style="display: none"></circle></svg>
+        
+      </a>
+      <div style="{{ navLinksWrapStyle }}">
+        <sc-for list="{{ navLinks }}" as="link" hint-placeholder-count="5">
+          <a href="#{{ link.id }}" onClick="{{ link.onClick }}" style="{{ link.style }}" style-hover="background-size:100% 2px;">{{ link.label }}</a>
+        </sc-for>
+      </div>
+      <button aria-label="Menú" onClick="{{ toggleMobileMenu }}" style="{{ hamburgerStyle }}">
+        <span style="width:24px; height:2px; background:#FEFCED; display:block; border-radius:2px;"></span>
+        <span style="width:24px; height:2px; background:#FEFCED; display:block; border-radius:2px;"></span>
+        <span style="width:24px; height:2px; background:#FEFCED; display:block; border-radius:2px;"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  
+
+  <!-- MARQUEE -->
+  <section id="inicio" style="{{ heroSectionStyle }}" data-om-label="inicio">
+    <div data-reveal-id="hero" style="{{ heroEyebrowStyle }}"><h1 style="font-family: Georgia,serif; font-style: italic; font-size: {{ heroNameSize }}; line-height: 1.15; color: #1B65AF; margin: 0; font-weight: 400;">Ana Guzmán</h1><p style="font-family: 'Aileron',sans-serif; font-size: {{ heroLabelSize }}; letter-spacing: 4px; color: #1B65AF; font-weight: 600; margin: 8px 0 0;">NEUROPSICÓLOGA CLÍNICA</p></div>
+    <div data-reveal-id="heroImg" style="{{ heroImgWrapStyle }}">
+      <img src="./image-ms7ugvf1-uw8l.png" alt="Ana Guzmán, neuropsicóloga clínica" style="{{ heroImgStyle }}" style-hover="transform:rotate(15deg);" width="3408" height="2982">
+    </div>
+    <h1 style="{{ heroHeadingStyle }} font-family:Georgia,serif; font-style:italic; font-size:{{ heroTitleSize }}; line-height:1.15; color:#1B65AF; margin:0; font-weight:400;">El primer paso hacia sentirte mejor.</h1>
+    <p style="{{ heroParagraphStyle }} font-size:{{ heroBodySize }}; line-height:1.7; color:#3a3a3a; max-width:460px; margin:0;">Un espacio cálido y seguro para acompañarte en tu bienestar emocional y cognitivo.</p>
+    <div style="{{ heroButtonWrapStyle }} text-align:{{ heroTextAlign }};">
+      <a href="https://calendly.com/psicologaanaguzman/30min" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:10px; border:2px solid #1B65AF; color:#1B65AF; font-size:20px; font-weight:600; padding:18px 40px; border-radius:999px; text-decoration:none; transition:all 0.35s cubic-bezier(.22,1,.36,1);" style-hover="background:#1B65AF; color:#FEFCED; transform:translateY(-3px); box-shadow:0 14px 28px rgba(27,101,175,0.28);" style-active="transform:translateY(-1px) scale(0.97);">Agendar cita →</a>
+    </div>
+  </section><div style="background:#5A9AF3; overflow:hidden; padding:22px 0; white-space:nowrap;">
+    <div style="display:inline-flex; animation:marquee 22s linear infinite;">
+      <sc-for list="{{ marqueeTags }}" as="grp" hint-placeholder-count="2">
+        <div style="display:inline-flex; align-items:center;">
+          <sc-for list="{{ grp }}" as="tag" hint-placeholder-count="6">
+            <span style="display:inline-flex; align-items:center; gap:{{ marqueeGap }}; margin-right:{{ marqueeGap }};">
+              <span style="font-family:Georgia,serif; font-style:italic; font-size:{{ marqueeTextSize }}; color:#FEFCED;">{{ tag }}</span>
+              <img src="assets/blob-icon.png" alt="" style="width:18px; height:18px; object-fit:contain;">
+            </span>
+          </sc-for>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- ABOUT / INTRO -->
+  
+
+  <!-- SERVICIOS -->
+  <section id="sobremi" style="{{ aboutSectionStyle }}" data-om-label="sobremi">
+    <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+      <div data-reveal-id="aboutImg" style="{{ reveal.aboutImg }} order:2; grid-column:1; margin-bottom:24px;">
+        <img src="./whatsapp-image-2026-07-06-at-13-56-44-1--ms7ur5ak-ykth.jpeg" alt="Espacio de terapia" style="{{ aboutImgStyle }}">
+      </div>
+      <h2 style="order:1; grid-column:1; margin:0; font-family:Georgia,serif; font-style:italic; font-size:{{ aboutTitleSize }}; line-height:1.2; color:#1B65AF; font-weight:400; text-align:center;">En donde sentirse bien, se siente seguro.</h2>
+      <div data-reveal-id="about" style="{{ reveal.about }} order:3; grid-column:1;">
+        <p style="font-size:19px; font-weight:600; margin:0 0 20px; color:#1a1a1a;">Hola, soy Ana Guzmán, neuropsicóloga clínica.</p>
+        <p style="font-size:17px; line-height:1.8; color:#3a3a3a; margin:0 0 22px;">Mi objetivo es ofrecerte un espacio seguro donde puedas sentirte escuchada/o y acompañada/o en tu proceso. Sé que pedir ayuda no siempre es fácil, por eso construyo cada relación terapéutica desde la empatía, la confianza y el respeto por tu historia.</p>
+        <p style="font-size:17px; line-height:1.8; color:#3a3a3a; margin:0;">Trabajo con adultos en temas de salud mental, bienestar emocional, dificultades cognitivas y el desarrollo de herramientas para enfrentar los retos del día a día. Para mí, la terapia va más allá de aliviar el malestar: es una oportunidad para conocernos mejor y construir una vida más alineada con nuestros valores.</p>
+      </div>
+    </sc-if>
+    <sc-if value="{{ !isMobile }}" hint-placeholder-val="{{ true }}">
+      <div data-reveal-id="aboutImg" style="{{ reveal.aboutImg }}">
+        <img src="./whatsapp-image-2026-07-06-at-13-56-44-1--ms7ur5ak-ykth.jpeg" alt="Espacio de terapia" style="{{ aboutImgStyle }}">
+      </div>
+      <div data-reveal-id="about" style="{{ reveal.about }}">
+        <h2 style="font-family:Georgia,serif; font-style:italic; font-size:{{ aboutTitleSize }}; line-height:1.2; color:#1B65AF; margin:0 0 36px; font-weight:400; text-align:left;">En donde sentirse bien, se siente seguro.</h2>
+        <p style="font-size:19px; font-weight:600; margin:0 0 20px; color:#1a1a1a;">Hola, soy Ana Guzmán, neuropsicóloga clínica.</p>
+        <p style="font-size:17px; line-height:1.8; color:#3a3a3a; margin:0 0 22px;">Mi objetivo es ofrecerte un espacio seguro donde puedas sentirte escuchada/o y acompañada/o en tu proceso. Sé que pedir ayuda no siempre es fácil, por eso construyo cada relación terapéutica desde la empatía, la confianza y el respeto por tu historia.</p>
+        <p style="font-size:17px; line-height:1.8; color:#3a3a3a; margin:0;">Trabajo con adultos en temas de salud mental, bienestar emocional, dificultades cognitivas y el desarrollo de herramientas para enfrentar los retos del día a día. Para mí, la terapia va más allá de aliviar el malestar: es una oportunidad para conocernos mejor y construir una vida más alineada con nuestros valores.</p>
+      </div>
+    </sc-if>
+  </section><section id="servicios" style="{{ serviciosSectionStyle }}" data-om-label="servicios">
+    <div style="box-sizing: border-box; display: flex; flex-direction: column; gap: 0px; overflow: scroll"><div style="box-sizing: border-box; display: flex; flex-direction: row; gap: 4px; align-items: center; justify-content: center; margin-bottom:32px;">
+      <h2 data-reveal-id="serviciosTitle" style="{{ reveal.serviciostitle }} font-family: Georgia,serif; font-style: italic; font-size: {{ serviciosTitleSize }}; text-align: center; color: #5A9AF3; margin: 0; font-weight: 400;">SER</h2><h2 data-reveal-id="serviciosTitle" style="{{ reveal.serviciostitle }} font-family: Aileron; font-style: normal; font-size: {{ serviciosTitleSize }}; text-align: center; color: #5A9AF3EB; margin: 0; font-weight: 400;">VICIOS</h2>
+    </div><div data-reveal-id="servicios" style="{{ serviciosCardStyle }}">
+      <div>
+        <h3 style="font-size: 16px; letter-spacing: 2.5px; font-weight: 700; margin: 0 0 18px; color: #1a1a1a; font-family: Aileron; font-style: normal">ATENCIÓN A ADULTOS</h3>
+        <p style="font-size:16px; line-height:1.8; color:#2a2a2a; margin:0;">Un espacio seguro para adultos que buscan bienestar emocional y claridad mental, ya sea a través de un proceso terapéutico o de una evaluación especializada. Cada persona y cada necesidad son distintas, por eso el acompañamiento se adapta a ti.</p>
+      </div>
+      <div style="background: #FEFCED; border-radius: 20px; overflow: hidden">
+        <sc-for list="{{ services }}" as="svc" hint-placeholder-count="2">
+          <div onClick="{{ svc.toggle }}" onMouseEnter="{{ svc.onEnter }}" onMouseLeave="{{ svc.onLeave }}" style="{{ svc.rowStyle }}">
+            <div style="display:flex; align-items:center; justify-content:space-between;">
+              <span style="{{ svc.titleStyle }}">{{ svc.title }}</span>
+              <span style="{{ svc.arrowStyle }}">→</span>
+            </div>
+            <div style="{{ svc.descWrapStyle }}">
+              <p style="{{ svc.descTextStyle }}">{{ svc.desc }}</p>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div></div>
+    
+  </section>
+
+  <!-- CREDENCIALES -->
+  <section id="credenciales" style="padding-top: {{ credencialesSectionPad }}; padding-bottom: {{ credencialesSectionPad }}" data-om-label="credenciales">
+    <div style="background: #5A9AF3; display: flex; align-items: flex-end; justify-content: center; gap: 4px; padding: 8px 28px;">
+      <h2 data-reveal-id="credencialesTitle" style="{{ reveal.credencialesTitle }} font-family:Georgia,serif; font-style:italic; font-size:{{ credencialesTitleSize }}; color:#FEFCED; margin:0; font-weight:400;">CRED</h2>
+      <h2 data-reveal-id="credencialesTitle" style="{{ reveal.credencialestitle }} font-family: Aileron; font-style: normal; font-size: {{ credencialesTitleSize }}; color: #FEFCED; margin: 0; font-weight: 400;">ENCIALES</h2>
+    </div>
+    <div style="max-width:1280px; margin:0 auto; padding:{{ credencialesBodyPad }};">
+      <div data-reveal-id="credenciales" style="{{ credencialesGridStyle }}">
+        <sc-for list="{{ credenciales }}" as="item" hint-placeholder-count="7">
+          <div style="display:flex; align-items:flex-start; gap:16px;">
+            <img src="assets/blob-icon.png" alt="" style="width:22px; height:22px; object-fit:contain; flex-shrink:0; margin-top:2px;">
+            <span style="font-size:18px; line-height:1.6; color:#1a1a1a;">{{ item }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section style="position:relative; background-color:#AFBAF9; padding:{{ testimonialSectionPad }}; overflow:hidden;">
+    <div data-reveal-id="testimonial" style="{{ reveal.testimonial }}">
+      <p style="text-align:center; font-family:Aileron,sans-serif; font-size:14px; letter-spacing:2px; font-weight:700; color:#FEFCED; margin:0 0 32px;">TESTIMONIALS</p>
+      <div onTouchStart="{{ onTestimonialTouchStart }}" onTouchMove="{{ onTestimonialTouchMove }}" onTouchEnd="{{ onTestimonialTouchEnd }}" style="position:relative; width:100%; overflow:hidden; height:380px;">
+        <div style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); display:flex; align-items:center; gap:24px; width:max-content;">
+          <div style="display:flex; align-items:center; gap:24px; transform:translateX({{ trackOffset }}); transition:transform 0.5s cubic-bezier(0.22,1,0.36,1);">
+            <sc-for list="{{ testimonials }}" as="t" hint-placeholder-count="3">
+              <div onClick="{{ t.onClick }}" style="{{ t.cardStyle }}">
+                <p style="font-family:Georgia,serif; font-style:italic; font-weight:700; font-size:{{ t.headlineSize }}; line-height:1.4; color:#1B65AF; margin:0 0 16px;">{{ t.headline }}</p>
+                <p style="font-family:Aileron,sans-serif; font-size:{{ t.bodySize }}; line-height:1.6; color:#1B65AF; margin:0 0 24px; flex:1;">{{ t.body }}</p>
+                <p style="font-size:14px; letter-spacing:1px; color:#5a5a5a; margin:0;">{{ t.author }}</p>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; justify-content:center; gap:12px; margin-top:44px;">
+        <sc-for list="{{ dots }}" as="d" hint-placeholder-count="3">
+          <span onClick="{{ d.onClick }}" style="width:10px; height:10px; border-radius:50%; background:{{ d.bg }}; border:1.5px solid #FEFCED; box-sizing:border-box; cursor:pointer;"></span>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" style="{{ contactoSectionStyle }}" data-om-label="contacto">
+    <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex; align-items:flex-end; justify-content:center; gap:4px; margin-bottom:48px;">
+        <h2 data-reveal-id="contactoTitle" style="{{ reveal.contactoTitle }} font-family:Georgia,serif; font-style:italic; font-size:{{ contactoTitleSize }}; text-align:center; color:#5A9AF3; margin:0; font-weight:400;">CON</h2>
+        <h2 data-reveal-id="contactoTitle" style="{{ reveal.contactoTitle }} font-family:Aileron,sans-serif; font-style:normal; font-size:{{ contactoTitleSize }}; text-align:center; color:#5A9AF3; margin:0; font-weight:400;">TÁCTAME</h2>
+      </div>
+    </sc-if>
+    <sc-if value="{{ !isMobile }}" hint-placeholder-val="{{ true }}">
+      <div style="display:flex; align-items:center; justify-content:center; gap:4px; margin-bottom:60px;">
+        <h2 data-reveal-id="contactoTitle" style="{{ reveal.contactoTitle }} font-family:Georgia,serif; font-style:italic; font-size:{{ contactoTitleSize }}; text-align:center; color:#5A9AF3; margin:0; font-weight:400;">CON</h2>
+        <h2 data-reveal-id="contactoTitle" style="{{ reveal.contactoTitle }} font-family:Aileron,sans-serif; font-style:normal; font-size:{{ contactoTitleSize }}; text-align:center; color:#5A9AF3; margin:0; font-weight:400;">TÁCTAME</h2>
+      </div>
+    </sc-if>
+    <div data-reveal-id="contacto" style="{{ contactoGridStyle }}">
+      <div style="{{ contactoCellStyle }}">
+        <img src="assets/location-icon.png" alt="" style="{{ contactoIconStyle }}">
+        <div style="{{ contactoTextWrapStyle }}">
+        <p style="font-size:15px; letter-spacing:1.5px; font-weight:700; color:#1B65AF; margin:0 0 8px;">DIRECCIÓN</p>
+        <p style="font-size:16px; line-height:1.5; margin:0; color:#2a2a2a;">Av. Olímpica 3428, San Salvador</p>
+        </div>
+      </div>
+      <div style="{{ contactoCellStyle }}" data-x="2">
+        <img src="assets/schedule-icon.png" alt="" style="{{ contactoIconStyle }}">
+        <div style="{{ contactoTextWrapStyle }}">
+        <p style="font-size:15px; letter-spacing:1.5px; font-weight:700; color:#1B65AF; margin:0 0 8px;">HORARIO</p>
+        <p style="font-size:16px; line-height:1.5; margin:0; color:#2a2a2a;">Martes a sábado | 9 AM–6PM</p>
+        </div>
+      </div>
+      <div style="padding:{{ contactoLastPad }}; display:{{ contactoLastDisplay }}; align-items:flex-start; gap:14px;">
+        <img src="assets/modalidad-icon.png" alt="" style="{{ contactoIconStyle }}">
+        <div style="{{ contactoTextWrapStyle }}">
+        <p style="font-size:15px; letter-spacing:1.5px; font-weight:700; color:#1B65AF; margin:0 0 8px;">MODALIDAD</p>
+        <p style="font-size:16px; line-height:1.5; margin:0; color:#2a2a2a;">Presencial y virtual</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA + FORM -->
+  <section id="cita" style="background: #5A9AF3; padding: {{ citaSectionPad }}">
+    <div data-reveal-id="form" style="{{ formGridStyle }}">
+      <div style="display:flex; flex-direction:column; align-items:{{ citaLeftAlignItems }}; text-align:{{ citaLeftTextAlign }};">
+        <h2 style="font-family: Georgia,serif; font-style: italic; font-size: {{ citaTitleSize }}; line-height: 1.2; color: #FEFCED; margin: 0 0 16px; font-weight: 400">Cuéntame un poco de ti</h2>
+        <p style="font-family: Georgia,serif; font-style: italic; font-size: 18px; color: #FEFCED; margin: 0 0 36px">y encontremos el mejor momento para conversar.</p>
+        <a href="https://calendly.com/psicologaanaguzman/30min" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; background: transparent; color: #FEFCED; font-size: 20px; font-weight: 500; padding: 18px 40px; border-radius: 999px; border: 2px solid #FEFCED; text-decoration: none; transition: all 0.35s cubic-bezier(.22,1,.36,1)" style-hover="background:#FEFCED; color:#5A9AF3; transform:translateY(-3px); box-shadow:0 14px 28px rgba(27,101,175,0.32);" style-active="transform:translateY(-1px) scale(0.97);">Agenda tu cita →</a>
+        <p style="font-size: 14px; color: #FEFCED; margin: 20px 0 0">Te llevará a mi calendario de disponibilidad.</p>
+      </div>
+      <div>
+        <div style="background:#EBC6D0; border-radius:28px; padding:{{ formCardPad }}; display:flex; flex-direction:column; gap:24px;">
+          <div style="display:flex; align-items:center; gap:16px; margin:0 0 4px;">
+            <div style="flex:1; height:1px; background:#1B65AF;"></div>
+            <p style="font-size: 14px; color: #1B65AF; margin: 0; white-space:nowrap; font-weight:600;">o escríbeme directamente</p>
+            <div style="flex:1; height:1px; background:#1B65AF;"></div>
+          </div>
+        <label style="display:flex; flex-direction:column; gap:8px; font-size:16px; font-weight:600; color:#1a1a1a;">Nombre *
+          <input type="text" placeholder="Tu nombre completo" value="{{ formName }}" onChange="{{ onNameChange }}" style="{{ inputStyle }}" style-focus="border-color:#1B65AF; box-shadow:0 0 0 4px rgba(27,101,175,0.12);">
+        </label>
+        <label style="display:flex; flex-direction:column; gap:8px; font-size:16px; font-weight:600; color:#1a1a1a;">Correo electrónico *
+          <input type="email" placeholder="tucorreo@ejemplo.com" value="{{ formEmail }}" onChange="{{ onEmailChange }}" style="{{ inputStyle }}" style-focus="border-color:#1B65AF; box-shadow:0 0 0 4px rgba(27,101,175,0.12);">
+        </label>
+        <label style="display:flex; flex-direction:column; gap:8px; font-size:16px; font-weight:600; color:#1a1a1a;">Mensaje *
+          <textarea placeholder="Cuéntame en qué puedo ayudarte" rows="4" value="{{ formMessage }}" onChange="{{ onMessageChange }}" style="{{ inputStyle }} resize:none; font-family:inherit;" style-focus="border-color:#1B65AF; box-shadow:0 0 0 4px rgba(27,101,175,0.12);"></textarea>
+        </label>
+        <sc-if value="{{ formError }}" hint-placeholder-val="{{ false }}">
+          <p style="font-size:14px; color:#b3261e; margin:-8px 0 0; font-weight:600;">{{ formError }}</p>
+        </sc-if>
+        <a href="{{ mailtoHref }}" onClick="{{ onSubmit }}" style="align-self:stretch; justify-content:center; display:inline-flex; align-items:center; gap:10px; background:transparent; color:#1B65AF; font-size:18px; font-weight:500; padding:16px 32px; border-radius:999px; border:2px solid #1B65AF; cursor:pointer; text-decoration:none; text-align:center; transition:all 0.35s cubic-bezier(.22,1,.36,1);" style-hover="background:#1B65AF; color:#FEFCED; transform:translateY(-2px); box-shadow:0 10px 22px rgba(27,101,175,0.3);" style-active="transform:translateY(0) scale(0.96);">Enviar →</a>
+        </div>
+      </div>
+    </div>
+    <sc-if value="{{ showConfirm }}" hint-placeholder-val="{{ false }}">
+      <div style="position:fixed; inset:0; background:rgba(27,101,175,0.35); display:flex; align-items:center; justify-content:center; z-index:200;">
+        <div style="background:#FEFCED; border-radius:24px; padding:48px; max-width:440px; width:90%; position:relative; text-align:center; box-shadow:0 24px 60px rgba(0,0,0,0.25);">
+          <button onClick="{{ closeConfirm }}" aria-label="Cerrar" style="position:absolute; top:18px; right:18px; width:32px; height:32px; border-radius:50%; border:none; background:transparent; color:#1B65AF; font-size:20px; cursor:pointer; display:flex; align-items:center; justify-content:center;">×</button>
+          <h3 style="font-family:Georgia,serif; font-style:italic; font-size:26px; color:#1B65AF; margin:0 0 12px; font-weight:400;">¡Mensaje enviado!</h3>
+          <p style="font-size:16px; line-height:1.6; color:#2a2a2a; margin:0;">Gracias por escribirme. Te responderé pronto, y hemos enviado una copia de tu mensaje a tu correo.</p>
+        </div>
+      </div>
+    </sc-if>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="padding: 70px 48px 40px; background-color: #FEFCED">
+    <div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px">
+      <div style="display: flex; align-items: center; gap: 0px">
+        <svg width="20" height="20" viewBox="0 0 34 34" style="background: url(&quot;./posts-ana-insta_logos-12-msfb256b-jcp4.webp&quot;) center / cover no-repeat; width: 98px; height: 98px; aspect-ratio: 1:1; box-sizing: content-box"><circle cx="22" cy="17" r="10" fill="none" stroke="#FEFCED" stroke-width="2.2" style="display: none"></circle></svg>
+        <span style="font-size: 16px; letter-spacing: 3px; font-weight: 400; color: #1B65AF">ANA GUZMÁN</span>
+      </div>
+      <p style="font-size: 15px; color: #1B65AF; max-width: 440px; line-height: 1.6; margin: 0">Neuropsicóloga clínica. Un espacio seguro para tu bienestar emocional, presencial y virtual.</p>
+      <div style="display:flex; gap:16px; margin:10px 0;">
+        <a href="https://www.instagram.com/psicanaguzman/" target="_blank" rel="noopener" style="width: 38px; height: 38px; border-radius: 50%; background: #AFBAF9; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" style-hover="background:#5A9AF3;" style-active="background:#5A9AF3;">
+          <svg width="16" height="16" viewBox="0 0 16 16" style="background: url(&quot;./instagram-white-icon-msfb731q-oiwd.webp&quot;) center / cover no-repeat"></svg>
+        </a>
+        <a href="https://www.tiktok.com/@psic.ana.guzmn?_r=1&amp;_t=ZS-98deQhSBkSA" target="_blank" rel="noopener" style="width: 38px; height: 38px; border-radius: 50%; background: #AFBAF9; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" style-hover="background:#5A9AF3;" style-active="background:#5A9AF3;">
+          <svg width="16" height="16" viewBox="0 0 16 16" style="background: url(&quot;./tiktok-icon-white-logo-tiktok-app-transp-msfbimka-hkjw.webp&quot;) center / cover no-repeat"></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" style="width: 38px; height: 38px; border-radius: 50%; background: #AFBAF9; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;" style-hover="background:#5A9AF3;" style-active="background:#5A9AF3;">
+          <svg width="16" height="16" viewBox="0 0 16 16" style="background: url(&quot;./whatsapp-white-icon-msfbg9nh-5ipn.webp&quot;) center / cover no-repeat"></svg>
+        </a>
+      </div>
+      <p style="font-size: 13px; color: #1B65AF; opacity: 0.5; margin: 14px 0 0">© Ana Guzmán · Neuropsicóloga clínica</p>
+      <p style="font-size: 13px; color: #1B65AF; opacity: 0.5; margin: 0">JVPP: 11033</p>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;serviceActiveBg&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#5A9AF3&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Servicios buttons&quot;},
+  &quot;serviceActiveText&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#FEFCED&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Servicios buttons&quot;}
+}">
+const TAGS = ['Ansiedad','Depresión','Manejo del estrés','Gestión emocional y autoestima','Problemas de memoria','Problemas de atención','Dificultades de organización y planificación','Habilidades sociales','Deterioro o daño cognitivo'];
+
+class Component extends DCLogic {
+  state = { scrolled: false, visible: {}, expandedService: null, hoveredService: null, testimonialIndex: 0, formName: '', formEmail: '', formMessage: '', formError: '', showConfirm: false, activeSection: 'inicio', isMobile: false, mobileMenuOpen: false };
+
+  navSections = ['inicio','sobremi','servicios','credenciales','contacto'];
+
+  componentDidMount() {
+    this._onResize = () => {
+      const isMobile = window.innerWidth <= 768;
+      if (isMobile !== this.state.isMobile) this.setState({ isMobile, mobileMenuOpen: isMobile ? this.state.mobileMenuOpen : false });
+    };
+    this._onResize();
+    window.addEventListener('resize', this._onResize);
+    this._onScroll = () => {
+      this.setState({ scrolled: window.scrollY > 12 });
+      this._revealOnScroll();
+      this._updateActiveSection();
+    };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+
+    this._observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        const id = e.target.getAttribute('data-reveal-id');
+        if (!id) return;
+        if (e.isIntersecting || e.boundingClientRect.top < 0) {
+          this.setState(s => (s.visible[id] ? null : { visible: { ...s.visible, [id]: true } }));
+          this._observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0, rootMargin: '0px 0px -5% 0px' });
+
+    setTimeout(() => {
+      document.querySelectorAll('[data-reveal-id]').forEach(el => this._observer.observe(el));
+      this._revealOnScroll();
+    }, 50);
+  }
+
+  _updateActiveSection() {
+    let current = this.navSections[0];
+    this.navSections.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && el.getBoundingClientRect().top <= 140) current = id;
+    });
+    if (current !== this.state.activeSection) this.setState({ activeSection: current });
+  }
+
+  _revealOnScroll() {
+    document.querySelectorAll('[data-reveal-id]').forEach(el => {
+      const id = el.getAttribute('data-reveal-id');
+      if (id && !this.state.visible[id] && el.getBoundingClientRect().top < window.innerHeight * 0.9) {
+        this.setState(s => (s.visible[id] ? null : { visible: { ...s.visible, [id]: true } }));
+        if (this._observer) this._observer.unobserve(el);
+      }
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    window.removeEventListener('resize', this._onResize);
+    if (this._observer) this._observer.disconnect();
+  }
+
+  revealStyle(id) {
+    const shown = !!this.state.visible[id];
+    return `opacity:${shown ? 1 : 0}; transform:translateY(${shown ? 0 : 28}px); transition:opacity 0.9s cubic-bezier(.22,1,.36,1), transform 0.9s cubic-bezier(.22,1,.36,1);`;
+  }
+
+  renderVals() {
+    const ids = ['hero','heroImg','aboutImg','about','serviciosTitle','servicios','credencialesTitle','credenciales','testimonial','contactoTitle','contacto','form'];
+    const reveal = {};
+    ids.forEach(id => { reveal[id] = this.revealStyle(id) + ` --reveal-id:${id};`; });
+
+    const isMobile = this.state.isMobile;
+    const activeBg = this.props.serviceActiveBg ?? '#5A9AF3';
+    const activeText = this.props.serviceActiveText ?? '#FEFCED';
+    const SERVICES = [
+      { id: 'acomp', title: 'ACOMPAÑAMIENTO PSICOLÓGICO', desc: 'Apoyo terapéutico para: ansiedad y depresión, manejo del estrés, regulación emocional, autoestima.' },
+      { id: 'eval', title: 'EVALUACIÓN E INTERVENCIÓN NEUROPSICOLÓGICA', desc: 'Enfocada en: problemas de memoria y atención, dificultades de organización y planificación, habilidades sociales, deterioro o daño cognitivo.' }
+    ];
+    const expandedService = this.state.expandedService;
+    const hoveredService = this.state.hoveredService;
+    const services = SERVICES.map((s, i) => {
+      const isActive = expandedService === s.id;
+      const isHovered = hoveredService === s.id;
+      const bg = (isActive || isHovered) ? activeBg : '#FEFCED';
+      const textColor = (isActive || isHovered) ? activeText : '#5A9AF3';
+      return {
+        title: s.title,
+        desc: s.desc,
+        toggle: () => this.setState(st => ({ expandedService: st.expandedService === s.id ? null : s.id })),
+        onEnter: () => this.setState({ hoveredService: s.id }),
+        onLeave: () => this.setState(st => (st.hoveredService === s.id ? { hoveredService: null } : null)),
+        rowStyle: `padding:26px 32px; cursor:pointer; background:${bg}; color:${textColor}; ${i === 0 ? 'border-bottom:2px solid #AFBAF9;' : ''} transition:background 0.35s cubic-bezier(.22,1,.36,1), color 0.35s cubic-bezier(.22,1,.36,1);`,
+        titleStyle: `font-size:16px; font-weight:600; letter-spacing:0.5px; color:inherit;`,
+        arrowStyle: `transition:transform 0.3s ease; flex-shrink:0; color:inherit;`,
+        descWrapStyle: `overflow:hidden; max-height:${isActive ? '140px' : '0px'}; opacity:${isActive ? 1 : 0}; transition:max-height 0.45s cubic-bezier(.22,1,.36,1), opacity 0.35s ease;`,
+        descTextStyle: `font-size:14px; line-height:1.7; color:inherit; margin:16px 0 0; font-weight:400; max-width:520px;`
+      };
+    });
+
+    const navLabels = { inicio:'Inicio', sobremi:'Sobre mi', servicios:'Servicios', credenciales:'Credenciales', contacto:'Contáctame' };
+    return {
+      isMobile,
+      mobileMenuOpen: this.state.mobileMenuOpen,
+      toggleMobileMenu: () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen })),
+      closeMobileMenu: () => this.setState({ mobileMenuOpen: false }),
+      services,
+      navContainerStyle: `max-width:1280px; margin:0 auto; padding:0 ${isMobile ? '20px' : '48px'}; height:${isMobile ? '68px' : '84px'}; display:flex; align-items:center; justify-content:space-between;`,
+      navLinksWrapStyle: isMobile
+        ? `display:${this.state.mobileMenuOpen ? 'flex' : 'none'}; position:absolute; top:68px; left:0; right:0; background:#AFBAF9; flex-direction:column; align-items:flex-start; gap:0; padding:8px 20px 20px; box-shadow:0 12px 24px rgba(0,0,0,0.12);`
+        : 'display:flex; align-items:center; gap:40px;',
+      hamburgerStyle: `display:${isMobile ? 'flex' : 'none'}; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:6px;`,
+      navLinks: this.navSections.map(id => ({
+        id,
+        label: navLabels[id],
+        style: isMobile
+          ? `color:#FEFCED; text-decoration:none; font-size:17px; font-weight:500; padding:14px 0; width:100%;`
+          : `color:#FEFCED; text-decoration:none; font-size:15px; font-weight:500; padding-bottom:6px; background-image:linear-gradient(#FEFCED,#FEFCED); background-repeat:no-repeat; background-position:left bottom; background-size:${this.state.activeSection === id ? '100% 2px' : '0% 2px'}; transition:background-size 0.3s ease;`,
+        onClick: () => this.setState({ mobileMenuOpen: false })
+      })),
+      formName: this.state.formName,
+      formEmail: this.state.formEmail,
+      formMessage: this.state.formMessage,
+      formError: this.state.formError,
+      onNameChange: (e) => this.setState({ formName: e.target.value }),
+      onEmailChange: (e) => this.setState({ formEmail: e.target.value }),
+      onMessageChange: (e) => this.setState({ formMessage: e.target.value }),
+      mailtoHref: `mailto:psicologaanaguzman@gmail.com?cc=${encodeURIComponent(this.state.formEmail)}&subject=${encodeURIComponent('Contacto desde la web - ' + (this.state.formName || ''))}&body=${encodeURIComponent('Nombre: ' + this.state.formName + '\\nCorreo: ' + this.state.formEmail + '\\n\\n' + this.state.formMessage)}`,
+      onSubmit: (e) => {
+        const { formName, formEmail, formMessage } = this.state;
+        if (!formName.trim() || !formEmail.trim() || !formMessage.trim()) {
+          e.preventDefault();
+          this.setState({ formError: 'Por favor completa todos los campos antes de enviar.' });
+        } else {
+          this.setState({ formError: '', showConfirm: true });
+        }
+      },
+      showConfirm: this.state.showConfirm,
+      closeConfirm: () => this.setState({ showConfirm: false }),
+      inputStyle: 'padding:14px 16px; border-radius:12px; border:1.5px solid transparent; background:#FEFCED; font-size:15px; color:#1a1a1a; outline:none; transition:border-color 0.25s ease, box-shadow 0.25s ease;',
+      marqueeTags: [TAGS, TAGS],
+      heroSectionStyle: `max-width:1280px; margin:0 auto; padding:${isMobile ? '110px 20px 60px' : '130px 48px 56px'}; display:grid; grid-template-columns:${isMobile ? '1fr' : '1fr 1fr'}; gap:${isMobile ? '0px' : '40px'}; align-items:center;`,
+      heroNameSize: isMobile ? '28px' : '30px',
+      heroLabelSize: isMobile ? '13px' : '15px',
+      heroTitleSize: isMobile ? '34px' : '56px',
+      heroBodySize: isMobile ? '16px' : '18px',
+      heroTextAlign: isMobile ? 'center' : 'left',
+      aboutTitleAlign: isMobile ? 'center' : 'left',
+      heroEyebrowStyle: (isMobile ? 'box-sizing:border-box; display:flex; flex-direction:column; align-items:center; text-align:center; order:1; grid-column:1; margin-bottom:15px;' : 'box-sizing:border-box; display:flex; flex-direction:column; align-items:flex-start; order:1; grid-column:1; margin-bottom:8px;') + this.revealStyle('hero'),
+      heroImgWrapStyle: (isMobile ? 'position:relative; display:flex; justify-content:center; order:2; grid-column:1; width:100%; margin:0 0 15px;' : 'position:relative; display:flex; justify-content:center; order:2; grid-column:2; grid-row:1/5;') + this.revealStyle('heroImg'),
+      heroHeadingStyle: isMobile ? 'order:3; grid-column:1; margin-bottom:24px; text-align:center;' : 'order:3; grid-column:1; margin-bottom:32px;',
+      heroParagraphStyle: isMobile ? 'order:4; grid-column:1; margin-bottom:24px;' : 'order:4; grid-column:1; margin-bottom:40px;',
+      heroButtonWrapStyle: isMobile ? 'order:5; grid-column:1;' : 'order:5; grid-column:1;',
+      heroImgStyle: isMobile
+        ? 'width:100%; max-width:100%; height:auto; aspect-ratio:3408/2982; display:block; object-fit:contain; transition:transform 0.35s ease;'
+        : 'max-width:621px; height:507px; display:block; width:499px; aspect-ratio:3408/2982; object-fit:cover; transition:transform 0.35s ease;',
+      marqueeTextSize: isMobile ? '18px' : '26px',
+      marqueeGap: isMobile ? '16px' : '28px',
+      aboutSectionStyle: `max-width:1280px; margin:0 auto; padding:${isMobile ? '60px 20px' : '56px 48px'}; display:grid; grid-template-columns:${isMobile ? '1fr' : '1fr 1.1fr'}; gap:${isMobile ? '32px' : '80px'}; align-items:center;`,
+      aboutImgStyle: isMobile ? 'width:100%; max-width:100%; height:auto; aspect-ratio:16/10; border-radius:20px; display:block; object-fit:cover;' : 'width:401px; height:627px; border-radius:28px; display:block; object-fit:cover;',
+      aboutTitleSize: isMobile ? '30px' : '44px',
+      serviciosSectionStyle: `max-width:1280px; margin:0 auto; padding:${isMobile ? '0 20px' : '0 48px'};`,
+      serviciosTitleSize: isMobile ? '38px' : '64px',
+      serviciosCardStyle: (isMobile
+        ? `background:#EBC6D0; border-radius:32px; padding:32px 24px; display:grid; grid-template-columns:1fr; gap:28px; align-items:center; width:100%; box-sizing:border-box;`
+        : `background:#EBC6D0; border-radius:50px; padding:56px; display:grid; grid-template-columns:1fr 1.2fr; gap:56px; align-items:center; width:798px; height:213px; margin:0 auto;`) + this.revealStyle('servicios'),
+      credencialesSectionPad: isMobile ? '48px' : '56px',
+      credencialesTitleSize: isMobile ? '38px' : '64px',
+      credencialesBodyPad: isMobile ? '48px 20px 0' : '60px 48px 0',
+      credencialesGridStyle: `display:grid; grid-template-columns:${isMobile ? '1fr' : '1fr 1fr'}; gap:${isMobile ? '24px' : '36px'} 60px; width:100%; max-width:784px; margin:0 auto;` + this.revealStyle('credenciales'),
+      testimonialSectionPad: isMobile ? '70px 0' : '100px 0',
+      contactoSectionStyle: `max-width:1280px; margin:0 auto; padding:${isMobile ? '48px 20px' : '60px 48px'};`,
+      contactoTitleSize: isMobile ? '38px' : '64px',
+      contactoGridStyle: `display:grid; grid-template-columns:${isMobile ? '1fr' : 'repeat(3,1fr)'}; background:#FEFCED; border-radius:24px; overflow:hidden;` + this.revealStyle('contacto'),
+      contactoCellStyle: isMobile
+        ? `padding:16px 20px; display:flex; align-items:flex-start; gap:14px;`
+        : `padding:8px 40px; border-right:2px solid #EBC6D0;`,
+      contactoLastPad: isMobile ? '16px 20px' : '8px 40px',
+      contactoIconStyle: isMobile ? 'width:24px; height:24px; display:block; margin-top:2px; flex-shrink:0;' : 'width:32px; height:32px; display:block; margin:0 0 12px;',
+      contactoTextWrapStyle: '',
+      contactoLastDisplay: isMobile ? 'flex' : 'block',
+      citaSectionPad: isMobile ? '70px 20px' : '110px 48px',
+      formGridStyle: `max-width:1280px; margin:0 auto; display:grid; grid-template-columns:${isMobile ? '1fr' : '0.9fr 1.1fr'}; gap:${isMobile ? '40px' : '70px'}; align-items:center;` + this.revealStyle('form'),
+      citaTitleSize: isMobile ? '32px' : '48px',
+      citaLeftTextAlign: isMobile ? 'center' : 'left',
+      citaLeftAlignItems: isMobile ? 'center' : 'flex-start',
+      formCardPad: isMobile ? '32px 24px' : '48px',
+      credenciales: [
+        'Licenciatura en psicología – Universidad Anáhuac Mayab',
+        'Master en Neuropsicología Clínica – ISEP',
+        'Diplomado en Psicoterapia Cognitivo Conductual – Centro de Psicoterapia Cognitiva',
+        'Diplomado en Desarrollo del amor y la sexualidad – Universidad Anáhuac Mayab',
+        'Diplomado en Habilidades Directivas – ISEP',
+        'Diplomado en Terapia de Lenguaje – Aprende Capacitaciones',
+        'Número de junta de vigilancia de la profesión de psicología: – 11033'
+      ],
+      trackOffset: `${(1 - this.state.testimonialIndex) * (isMobile ? 324 : 444)}px`,
+      testimonials: (() => {
+        const base = [
+          { headline: '"Llegué buscando herramientas para manejar la ansiedad y', body: 'encontré un espacio donde realmente me sentí escuchada. El proceso me ayudó a entenderme mejor y a tener más claridad en momentos difíciles."', author: '— Paciente anónimo' },
+          { headline: '"Sentí un acompañamiento genuino desde la primera', body: 'sesión. Pude poner en palabras cosas que llevaba mucho tiempo cargando en silencio."', author: '— Paciente anónimo' },
+          { headline: '"Aprendí herramientas que uso todos los', body: 'días para manejar el estrés y sentirme con más control sobre mis emociones."', author: '— Paciente anónimo' }
+        ];
+        const centeredSlot = 3 + this.state.testimonialIndex;
+        const slots = [];
+        for (let slot = 0; slot < 9; slot++) {
+          const dataIdx = slot % 3;
+          const active = slot === centeredSlot;
+          slots.push({
+            ...base[dataIdx],
+            cardStyle: `background-color:#FEFCED; border-radius:${isMobile ? '24px' : '32px'}; overflow:hidden; padding:${active ? (isMobile ? '32px 26px' : '48px 40px') : (isMobile ? '24px 20px' : '36px 28px')}; display:flex; flex-direction:column; flex:0 0 ${isMobile ? 300 : 420}px; box-sizing:border-box; height:${isMobile ? (active ? '300px' : '260px') : '331px'}; opacity:${active ? 1 : 0.45}; transform:scale(${active ? 1.15 : 0.85}); position:relative; z-index:${active ? 2 : 1}; cursor:pointer; transition:padding 0.5s cubic-bezier(0.22,1,0.36,1), opacity 0.5s ease, transform 0.5s cubic-bezier(0.22,1,0.36,1);`,
+            headlineSize: active ? '23px' : '20px',
+            bodySize: active ? '16px' : '17px',
+            onClick: () => this.setState({ testimonialIndex: dataIdx })
+          });
+        }
+        return slots;
+      })(),
+      dots: [0,1,2].map(i => ({ bg: i === this.state.testimonialIndex ? '#FEFCED' : 'transparent', onClick: () => this.setState({ testimonialIndex: i }) })),
+      onTestimonialTouchStart: (e) => { this._touchX = e.touches[0].clientX; },
+      onTestimonialTouchMove: (e) => { this._touchDeltaX = e.touches[0].clientX - this._touchX; },
+      onTestimonialTouchEnd: () => {
+        const dx = this._touchDeltaX || 0;
+        if (Math.abs(dx) > 40) {
+          this.setState(s => ({ testimonialIndex: (s.testimonialIndex + (dx < 0 ? 1 : 2)) % 3 }));
+        }
+        this._touchDeltaX = 0;
+      },
+      reveal
+    };
+  }
+}
+
+</script>
+</body>
+</html>
